@@ -1,5 +1,5 @@
 {% set name = "napari-layer-table" %}
-{% set version = "0.0.7" %}
+{% set version = "0.0.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-layer-table-{{ version }}.tar.gz
-  sha256: 21538e5877c493050bd2c24b4191ae55f390a9a5c22afc3f2e62da986870fe48
+  sha256: cb79a836399e8dfc7a311c131496193a8e0caf7b9e567680ad9da798bb3e5a8c
 
 build:
   noarch: python
